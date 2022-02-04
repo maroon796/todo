@@ -41,4 +41,24 @@ body {
   border: none;
   width: 80px;
   font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(204, 204, 204);
+}
+
+.list-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.task {
+  height: 50px;
+  background-color: #a9f1df;
+  margin: 0 15px;
+  border-radius: 5px;
 }
